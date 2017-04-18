@@ -39,6 +39,12 @@
             <artifactId>infinispan-jcache</artifactId>
             <version>8.2.6.Final</version>
         </dependency>
+        <!-- For Test -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
 
     </dependencies>
 
